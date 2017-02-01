@@ -82,7 +82,7 @@ form ="""
         <tr>
             <td><label>
                 Password:
-                <input type="password" name="password" value="">
+                <input type="password" type="required" name="password" value="">
                 </td>
                 <td><span class="error">%(pw_error)s</span>
             </label></td>
@@ -91,7 +91,7 @@ form ="""
         <tr>
             <td><label>
                 Confirm Password:
-                <input type="password" name="conf_password" value="">
+                <input type="password" type="required" name="conf_password" value="">
                 </td>
                 <td><span class="error">%(conf_error)s</span>
             </label></td>
